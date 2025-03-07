@@ -35,7 +35,7 @@
     {
       "source": "/:path*",
       "destination": "https://nbg1.your-objectstorage.com/ohlasy-data/:path*",
-      "has": [{ "type": "host", "value": "data2.ohlasy.info" }]
+      "has": [{ "type": "host", "value": "data.ohlasy.info" }]
     }
   ]
 }
