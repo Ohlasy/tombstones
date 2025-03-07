@@ -36,6 +36,11 @@
       "source": "/:path*",
       "destination": "https://nbg1.your-objectstorage.com/ohlasy-data/:path*",
       "has": [{ "type": "host", "value": "data.ohlasy.info" }]
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://nbg1.your-objectstorage.com/ohlasy-images/:path*",
+      "has": [{ "type": "host", "value": "i.ohlasy.info" }]
     }
   ]
 }
